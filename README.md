@@ -1,13 +1,16 @@
-# Portfolio 
-
- ## Components in App
-  ### Navbar 
-  ### Main 
-  ### Footer
+# Portfolio
 
 
- 
-## Tech Stack 
-  - React 
-  - Chakra UI Library 
-  - 
+
+
+## Components Structure in App
+
+- Navbar
+- Main
+- Footer
+
+## Tech Stack
+
+- React
+- Chakra UI Library
+-
