@@ -50,12 +50,12 @@ const Home = () => {
             <span style={{ color: "rgb(64, 112, 244)", fontWeight: "bold" }}>
               {/* Style will be inherited from the parent element */}
               <Typewriter
-                words={["Frontend-Developer.", "Coding Problem Solver"]}
+                words={["Frontend-Developer.", "Problem Solver", "Creative Thinker"]}
                 loop={true}
                 cursor
                 cursorStyle="|"
                 typeSpeed={80}
-                deleteSpeed={80}
+                deleteSpeed={120}
                 delaySpeed={1200}
               />
             </span>
