@@ -6,9 +6,9 @@ const navigation = [
   { name: "Home", href: "#Home", current: true },
   { name: "About", href: "#About", current: false },
   { name: "Skill", href: "#Skills", current: false },
-  { name: "Projects", href: "#", current: false },
+  { name: "Projects", href: "#Projects", current: false },
   { name: "Contact", href: "#Contact", current: false },
-  { name: "Resume", href: "#", current: false },
+  
 ];
 
 function classNames(...classes) {
@@ -16,7 +16,7 @@ function classNames(...classes) {
 }
 function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="navbar bg-gray-800">
       {({ open }) => (
         <>
        
@@ -24,7 +24,7 @@ function Navbar() {
             
             <div className="relative flex h-16 items-center justify-between">
             <div className="flex flex-shrink-0 items-center justify-start" >
-                <h1 className="text-white font-semibold text-bold text-[40px] pb-2">Naveen</h1>
+                <h1 className="text-white font-semibold text-bold text-[40px] pb-2 pl-10" >Naveen</h1>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
                 <div className="hidden sm:ml-6 sm:block">
@@ -36,8 +36,8 @@ function Navbar() {
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-md font-medium"
+                            : "text-gray-300 hover:bg-gray-700 hover:text-white transition-all transform hover:scale-105 ",
+                          "rounded-md px-3 py-2 text-md  font-medium mr-5"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >

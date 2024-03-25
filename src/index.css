@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.slick-slider > div{ 
+    margin: 0 1px;
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
