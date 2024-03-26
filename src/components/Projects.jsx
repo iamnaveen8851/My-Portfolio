@@ -66,6 +66,7 @@ const Projects = () => {
       <br />
 
       <Box 
+      borderRadius={"10px"}
       // border={"1px solid red"}
        w={"96%"} m={"auto"} id="Projects" bg="rgb(26, 32, 44)" className="slider-container">
         <Slider {...settings}>
