@@ -37,19 +37,19 @@ const Skills = () => {
           spacing={10}
         >
           <Box p={5} >
-            <Image src="public\html.svg" />
+            <Image src="\html.svg" />
           </Box>
           <Box p={5} >
-            <Image src="public\css.svg" />
+            <Image src="\css.svg" />
           </Box>
           <Box p={5} >
-            <Image src="public\js.svg" />
+            <Image src="\js.svg" />
           </Box>
           <Box p={5} >
-            <Image src="public\react.svg" />
+            <Image src="\react.svg" />
           </Box>
           <Box p={5} >
-            <Image src="public\redux.svg" />
+            <Image src="\redux.svg" />
           </Box>
           <Box p={5} >
             <Image w={{
@@ -59,19 +59,19 @@ const Skills = () => {
               lg: "100%",
               xl : "100%",
               "2xl" : "100%",
-            }} src="public\chakra.png" />
+            }} src="\chakra.png" />
           </Box>
           <Box p={5} >
-            <Image src="public\git.svg" />
+            <Image src="\git.svg" />
           </Box>
           <Box p={5} >
-            <Image src="public\postman.svg" />
+            <Image src="\postman.svg" />
           </Box>
           <Box p={5} >
-            <Image src="public\vite.svg" />
+            <Image src="\vite.svg" />
           </Box>
           <Box p={5} >
-            <Image src="public\node-js.svg" />
+            <Image src="\node-js.svg" />
           </Box>
           {/* <Box p={5} >
             <Image src="public\vs-code.svg" />

@@ -91,7 +91,7 @@ const Projects = () => {
               maxW="sm"
             >
               <CardBody>
-                <Image src="public\boat.png" alt="Boat" borderRadius="lg" />
+                <Image src="\boat.png" alt="Boat" borderRadius="lg" />
                 <Stack mt="6" spacing="3">
                   <Heading textAlign={"center"} size="md">
                     Boat-LifeStyle Clone
@@ -155,7 +155,7 @@ const Projects = () => {
               maxW="sm"
             >
               <CardBody>
-                <Image src="public\yts.png" alt="yts" borderRadius="lg" />
+                <Image src="\yts.png" alt="yts" borderRadius="lg" />
                 <Stack mt="6" spacing="3">
                   <Heading textAlign={"center"} size="md">
                     YTS.MX Movie-Website-Clone
@@ -217,7 +217,7 @@ const Projects = () => {
             >
               <CardBody>
                 <Image
-                  src="public\Learning.png"
+                  src="\Learning.png"
                   alt="Learning Exp"
                   borderRadius="lg"
                 />
@@ -283,7 +283,7 @@ const Projects = () => {
             >
               <CardBody>
                 <Image
-                  src="public\brightline.png"
+                  src="\brightline.png"
                   alt="Brightline"
                   borderRadius="lg"
                 />
