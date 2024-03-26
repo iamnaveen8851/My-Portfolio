@@ -91,7 +91,7 @@ const Home = () => {
               w="400px"
               h="400px"
               borderRadius={"50%"}
-              src="public/profile.png"
+              src="/profile.png"
             />
           </Box>
         </Box>
