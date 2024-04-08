@@ -26,7 +26,14 @@ const About = () => {
         </Heading>
         <br />
         <br />
-        <Text textAlign={"center"} fontSize={"40px"}>
+        <Text textAlign={"center"} fontSize={{
+          base: "24px",
+          sm : "25px",
+          md : "28px",
+          lg  :"40px",
+          xl : "40px",
+          "2xl" : "40px"
+        }}>
           I am{" "}
           <span style={{ color: "rgb(64, 112, 244)", fontWeight: "bold" }}>
             {/* Style will be inherited from the parent element */}
