@@ -29,7 +29,7 @@ const Home = () => {
         flexDirection={{
           base: "column",
           sm: "column",
-          md: "column",
+          md: "row",
           lg: "row",
           xl: "row",
           "2xl": "row",
@@ -52,7 +52,14 @@ const Home = () => {
           <br />
           <Heading fontSize={"48px"}>Hi 👋, </Heading>
           <br />
-          <Heading fontSize={"48px"}>
+          <Heading fontSize={{
+            base: "34px",
+            sm : "34px",
+            md : "35px",
+            lg : "48px",
+            xl : "48px",
+            "2xl" : "48px"
+          }}>
             I am{" "}
             <Text as="span" color={"rgb(64, 112, 244)"}>
               Naveen Kumar
@@ -61,7 +68,7 @@ const Home = () => {
           <br />
 
           <Heading fontSize={{
-            base : "27px",
+            base : "21.5px",
             sm : "30px",
             md : "35px",
             lg : "30px",
@@ -94,7 +101,7 @@ const Home = () => {
             download={"Naveen Kumar-Resume"}
             isExternal
           >
-            <Button bg="rgb(64, 112, 244)" color="white">
+            <Button _hover={{background : "green", color: "white",  transform: "scale(1.1)" }} bg="rgb(64, 112, 244)" color="white">
               Resume
             </Button>
           </Link>
