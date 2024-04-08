@@ -61,7 +61,7 @@ const Home = () => {
           <br />
 
           <Heading fontSize={{
-            base : "30px",
+            base : "27px",
             sm : "30px",
             md : "35px",
             lg : "30px",
