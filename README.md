@@ -1,5 +1,7 @@
 # Portfolio
-
+install first when you copy the repo in your local system 
+ - run npm install or npm i
+ - run `npm run dev`
 
 
 

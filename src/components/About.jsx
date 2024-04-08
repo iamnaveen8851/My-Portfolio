@@ -7,8 +7,12 @@ const About = () => {
       {/* About */}
       <Box
         bg={"#EBF8FF"}
+        h={"100vh"}
         // border={"1px solid black"}
         w={"100%"}
+        // mt={{
+        //   base : "10%"
+        // }}
         m={"auto"}
         p={20}
         id="About"
@@ -38,7 +42,13 @@ const About = () => {
           </span>
         </Text>
         <br />
-        <Center w={"60%"} m={"auto"}>
+        <Center w={{
+          base:  "100%",
+          sm : "100%",
+          md : "80%",
+          lg : "60%",
+          xl : "60%",
+        }} m={"auto"}>
           <Text textAlign={"center"}>
             Energetic and dedicated front-end developer intern with a solid
             foundation in HTML, CSS, and JavaScript. Proficient in React and

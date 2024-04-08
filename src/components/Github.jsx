@@ -10,21 +10,19 @@ const Github = () => {
       >
         Github Contribution
       </Heading>
-      <br />
-      <br />
-      <Box
-    //   border={"1px solid red"}
-        display={"flex"}
-        
-        flexDirection={{
-            base: 'column',
-            sm : 'column',
-            md : 'column',
-            lg : 'row',
-            xl : 'row',
-            "2xl" : "row"
-        }}
     
+      <Box
+        h={"100vh"}
+        //   border={"1px solid red"}
+        display={"flex"}
+        flexDirection={{
+          base: "column",
+          sm: "column",
+          md: "column",
+          lg: "row",
+          xl: "row",
+          "2xl": "row",
+        }}
         m={"auto"}
         gap={10}
         justifyContent={"space-around"}

@@ -65,12 +65,14 @@ const Projects = () => {
       </Heading>
       <br />
 
-      <Box 
+      <Box  
+       
       borderRadius={"10px"}
       // border={"1px solid red"}
        w={"96%"} m={"auto"} id="Projects" bg="rgb(26, 32, 44)" className="slider-container">
-        <Slider {...settings}>
+        <Slider {...settings} style={{ overflow: "hidden"}} >
           <Box
+            
             p={{
               base: 22,
               sm: 20,
@@ -80,7 +82,8 @@ const Projects = () => {
               "2xl": 10,
             }}
           >
-            <Card
+            <Card 
+            //  overflow={"hidden"}
               w={{
                 base: "250px",
                 sm: "290px",

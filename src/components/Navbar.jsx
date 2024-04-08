@@ -24,7 +24,7 @@ function Navbar() {
             
             <div className="relative flex h-16 items-center justify-between">
             <div className="flex flex-shrink-0 items-center justify-start" >
-                <h1 className="text-white font-semibold text-bold text-[40px] pb-2 pl-10" >Naveen</h1>
+               <a href="#Home"> <h1 className="text-white font-semibold text-bold text-[40px] pb-2 pl-10" >Naveen</h1></a>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
                 <div className="hidden sm:ml-6 sm:block">
