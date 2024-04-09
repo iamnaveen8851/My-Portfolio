@@ -96,7 +96,7 @@ const Home = () => {
 
           <br />
           <Link
-            href="public\Naveen Kumar-Resume.pdf"
+            href="Naveen Kumar-Resume.pdf"
             onClick={handleResumeClick}
             download={"Naveen Kumar-Resume"}
             isExternal
