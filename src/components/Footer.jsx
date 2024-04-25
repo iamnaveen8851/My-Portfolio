@@ -79,7 +79,7 @@ function Footer() {
         </Box>
 
         <Box m="auto">
-          <Link href="mailto:nk24528.nk81@gmail.com" isExternal>
+          <Link href="mailto:iamnaveen8851@gmail.com" isExternal>
             <IconButton
               _hover={{ transform: "scale(1.1)" }}
               bg={"white"}

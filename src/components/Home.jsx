@@ -6,7 +6,7 @@ const Home = () => {
   // To view the resume
   function handleResumeClick() {
     window.open(
-      "https://drive.google.com/file/d/1TOB6ntA9hfdyUGLTlDLiLiezoiEKWgfd/view?usp=sharing",
+      "https://drive.google.com/file/d/1C2UlZXagHvECSmOvOFdp_umyvNZh7A3_/view?usp=sharing",
       "_blank"
     );
   }
