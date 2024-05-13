@@ -24,6 +24,10 @@ const Projects = () => {
         color={"rgb(64, 112, 244)"}
         textAlign={"center"}
         fontSize={"45px"}
+        _hover={{
+          transform: "scale(1.1)",
+          transition: "transform 0.3s ease",
+        }}
       >
         Projects
       </Heading>
@@ -37,6 +41,7 @@ const Projects = () => {
         alignItems={"center"}
         gap="20px"
         m="auto"
+        
         columns={{
           base: "1",
           sm: "1",
@@ -47,6 +52,7 @@ const Projects = () => {
         }}
       >
         <Box
+       
           p={{
             base: 22,
             sm: 20,
@@ -57,6 +63,10 @@ const Projects = () => {
           }}
         >
           <Card
+            _hover={{
+              transform: "scale(1.1)",
+              transition: "transform 0.3s ease",
+            }}
             w={{
               base: "90%",
               sm: "90%",
@@ -79,8 +89,8 @@ const Projects = () => {
                   Asos-Clone
                 </Heading>
                 <Text textAlign={"center"}>
-                  Asos is a online ecommerce website for users to browse products
-                  and buy conveniently.
+                  Asos is a online ecommerce website for users to browse
+                  products and buy conveniently.
                 </Text>
 
                 <Text textAlign={"center"}>
@@ -121,6 +131,10 @@ const Projects = () => {
           }}
         >
           <Card
+            _hover={{
+              transform: "scale(1.1)",
+              transition: "transform 0.3s ease",
+            }}
             //  overflow={"hidden"}
             w={{
               base: "90%",
@@ -187,6 +201,10 @@ const Projects = () => {
           }}
         >
           <Card
+            _hover={{
+              transform: "scale(1.1)",
+              transition: "transform 0.3s ease",
+            }}
             w={{
               base: "90%",
               sm: "90%",
@@ -251,6 +269,10 @@ const Projects = () => {
           }}
         >
           <Card
+            _hover={{
+              transform: "scale(1.1)",
+              transition: "transform 0.3s ease",
+            }}
             w={{
               base: "90%",
               sm: "90%",
@@ -269,7 +291,9 @@ const Projects = () => {
                   Flipkart-Clone
                 </Heading>
                 <Text textAlign={"center"}>
-                  Your Flipkart website clone is a sleek, user-friendly platform built with React and styled with Chakra UI, offering a seamless shopping experience.
+                  Your Flipkart website clone is a sleek, user-friendly platform
+                  built with React and styled with Chakra UI, offering a
+                  seamless shopping experience.
                 </Text>
 
                 <Text textAlign={"center"}>
@@ -313,6 +337,10 @@ const Projects = () => {
           }}
         >
           <Card
+            _hover={{
+              transform: "scale(1.1)",
+              transition: "transform 0.3s ease",
+            }}
             w={{
               base: "90%",
               sm: "90%",
@@ -376,6 +404,10 @@ const Projects = () => {
           }}
         >
           <Card
+            _hover={{
+              transform: "scale(1.1)",
+              transition: "transform 0.3s ease",
+            }}
             w={{
               base: "90%",
               sm: "90%",
@@ -439,6 +471,10 @@ const Projects = () => {
           }}
         >
           <Card
+            _hover={{
+              transform: "scale(1.1)",
+              transition: "transform 0.3s ease",
+            }}
             w={{
               base: "90%",
               sm: "90%",
