@@ -17,7 +17,7 @@ const Github = () => {
 
       <Box
         h={"100vh"}
-        w="90%"
+        // w="90%"
         //   border={"1px solid red"}
         display={"flex"}
         flexDirection={{
