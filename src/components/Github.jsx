@@ -7,12 +7,17 @@ const Github = () => {
         color={"rgb(64, 112, 244)"}
         textAlign={"center"}
         fontSize={"45px"}
+        _hover={{
+          transform: "scale(1.1)",
+          transition: "transform 0.3s ease",
+        }}
       >
         Github Contribution
       </Heading>
-    
+
       <Box
         h={"100vh"}
+        w="90%"
         //   border={"1px solid red"}
         display={"flex"}
         flexDirection={{
@@ -29,7 +34,12 @@ const Github = () => {
         alignItems={"center"}
         id="github-contribution"
       >
-        <Text>
+        <Text
+          _hover={{
+            transform: "scale(1.1)",
+            transition: "transform 0.3s ease",
+          }}
+        >
           <img
             width="350px"
             align="center"
@@ -38,7 +48,13 @@ const Github = () => {
           />
         </Text>
 
-        <Text id="lang">
+        <Text
+          id="lang"
+          _hover={{
+            transform: "scale(1.1)",
+            transition: "transform 0.3s ease",
+          }}
+        >
           <img
             width="350px"
             align="left"
@@ -47,7 +63,12 @@ const Github = () => {
           />
         </Text>
 
-        <Text>
+        <Text
+          _hover={{
+            transform: "scale(1.1)",
+            transition: "transform 0.3s ease",
+          }}
+        >
           <img
             width="350px"
             align="center"

@@ -21,6 +21,10 @@ const About = () => {
           color={"rgb(64, 112, 244)"}
           textAlign={"center"}
           fontSize={"45px"}
+          _hover={{
+            transform: "scale(1.1)",
+            transition: "transform 0.3s ease",
+          }}
         >
           About
         </Heading>
