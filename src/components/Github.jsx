@@ -17,7 +17,7 @@ const Github = () => {
 
       <Box
         h={"100vh"}
-        // w="90%"
+        w="90%"
         //   border={"1px solid red"}
         display={"flex"}
         flexDirection={{
@@ -40,12 +40,13 @@ const Github = () => {
             transition: "transform 0.3s ease",
           }}
         >
-          <img
+          {/* <img
             width="350px"
             align="center"
             src="https://github-readme-stats.vercel.app/api?username=iamnaveen8851&show_icons=true&locale=en"
             alt="iamnaveen8851"
-          />
+          /> */}
+          <img src="https://github-readme-stats.vercel.app/api?username=iamnaveen8851&theme=dark&hide_border=false&include_all_commits=false&count_private=false" width="400" height="200" />
         </Text>
 
         <Text
@@ -55,12 +56,13 @@ const Github = () => {
             transition: "transform 0.3s ease",
           }}
         >
-          <img
-            width="350px"
+          {/* <img
+            width="320px"
             align="left"
             src="https://github-readme-stats.vercel.app/api/top-langs?username=iamnaveen8851&show_icons=true&locale=en&layout=compact"
             alt="iamnaveen8851"
-          />
+          /> */}
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamnaveen8851&theme=dark&hide_border=false" width="440" height="200" />
         </Text>
 
         <Text
@@ -69,12 +71,13 @@ const Github = () => {
             transition: "transform 0.3s ease",
           }}
         >
-          <img
+          {/* <img
             width="350px"
             align="center"
             src="https://github-readme-streak-stats.herokuapp.com/?user=iamnaveen8851&"
             alt="iamnaveen8851"
-          />
+          /> */}
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamnaveen8851&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" width="370" height="200" />
         </Text>
       </Box>
     </>
