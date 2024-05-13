@@ -27,9 +27,9 @@ const Skills = () => {
             base: 1,
             sm: 1,
             md: 2,
-            lg: 4,
-            xl: 5,
-            "2xl": 5,
+            lg: 3,
+            xl: 3,
+            "2xl": 3,
           }}
           display={"grid"}
           justifyContent={""}
@@ -38,6 +38,8 @@ const Skills = () => {
           spacing={10}
         >
           <Box
+           w="60%"
+           m="auto"
             p={5}
             _hover={{
               transform: "scale(1.1)",
@@ -47,6 +49,8 @@ const Skills = () => {
             <Image src="\html.svg" />
           </Box>
           <Box
+           w="60%"
+           m="auto"
             p={5}
             _hover={{
               transform: "scale(1.1)",
@@ -56,6 +60,8 @@ const Skills = () => {
             <Image src="\css.svg" />
           </Box>
           <Box
+           w="60%"
+           m="auto"
             p={5}
             _hover={{
               transform: "scale(1.1)",
@@ -65,6 +71,8 @@ const Skills = () => {
             <Image src="\js.svg" />
           </Box>
           <Box
+           w="60%"
+           m="auto"
             p={5}
             _hover={{
               transform: "scale(1.1)",
@@ -74,6 +82,8 @@ const Skills = () => {
             <Image src="\react.svg" />
           </Box>
           <Box
+           w="60%"
+           m="auto"
             p={5}
             _hover={{
               transform: "scale(1.1)",
@@ -83,6 +93,8 @@ const Skills = () => {
             <Image src="\redux.svg" />
           </Box>
           <Box
+           w="60%"
+           m="auto"
             p={5}
             _hover={{
               transform: "scale(1.1)",
@@ -102,6 +114,8 @@ const Skills = () => {
             />
           </Box>
           <Box
+           w="60%"
+           m="auto"
             p={5}
             _hover={{
               transform: "scale(1.1)",
@@ -111,6 +125,8 @@ const Skills = () => {
             <Image src="\git.svg" />
           </Box>
           <Box
+           w="50%"
+           m="auto"
             p={5}
             _hover={{
               transform: "scale(1.1)",
@@ -120,6 +136,8 @@ const Skills = () => {
             <Image src="\postman.svg" />
           </Box>
           <Box
+           w="50%"
+           m="auto"
             p={5}
             _hover={{
               transform: "scale(1.1)",
@@ -129,6 +147,8 @@ const Skills = () => {
             <Image src="\vite.svg" />
           </Box>
           <Box
+           w="60%"
+           m="auto"
             p={5}
             _hover={{
               transform: "scale(1.1)",
@@ -136,6 +156,40 @@ const Skills = () => {
             }}
           >
             <Image src="\node-js.svg" />
+          </Box>
+
+          <Box
+           w="60%"
+           m="auto"
+            p={5}
+            _hover={{
+              transform: "scale(1.1)",
+              transition: "transform 0.3s ease",
+            }}
+          >
+            <Image src="\mongoose.png" />
+          </Box>
+          <Box
+           w="60%"
+           m="auto"
+            p={5}
+            _hover={{
+              transform: "scale(1.1)",
+              transition: "transform 0.3s ease",
+            }}
+          >
+            <Image src="\mongodb.png" />
+          </Box>
+          <Box
+           w="80%"
+           m="auto"
+            p={5}
+            _hover={{
+              transform: "scale(1.1)",
+              transition: "transform 0.3s ease",
+            }}
+          >
+            <Image  src="\python.png" />
           </Box>
           {/* <Box p={5} >
             <Image src="public\vs-code.svg" />
