@@ -101,7 +101,7 @@ const Home = () => {
             download={"Naveen Kumar-Resume"}
             isExternal
           >
-            <Button _hover={{background : "green", color: "white",  transform: "scale(1.1)" }} bg="rgb(64, 112, 244)" color="white">
+            <Button w="27%" h="10%" fontSize={"17px"} _hover={{background : "green", color: "white",  transform: "scale(1.1)" }} bg="rgb(64, 112, 244)" color="white">
               Resume
             </Button>
           </Link>
