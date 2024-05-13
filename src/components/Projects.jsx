@@ -32,6 +32,7 @@ const Projects = () => {
       <SimpleGrid
         w="95%"
         // border={"1px solid black"}
+        id="Projects"
         justifyContent={"space-around"}
         alignItems={"center"}
         gap="20px"
@@ -416,6 +417,69 @@ const Projects = () => {
 
                 <Link
                   href="https://github.com/iamnaveen8851/Brightline-Clone"
+                  isExternal
+                >
+                  <Button variant="solid" colorScheme="blue">
+                    Github
+                  </Button>
+                </Link>
+              </ButtonGroup>
+            </CardFooter>
+          </Card>
+        </Box>
+
+        <Box
+          p={{
+            base: 22,
+            sm: 20,
+            md: 12,
+            lg: 10,
+            xl: 10,
+            "2xl": 10,
+          }}
+        >
+          <Card
+            w={{
+              base: "90%",
+              sm: "90%",
+              md: "100%",
+              lg: "110%",
+              xl: "110%",
+            }}
+            m="auto"
+            borderRadius={"20px"}
+            maxW="sm"
+          >
+            <CardBody>
+              <Image src="\movie-app.png" alt="Movie-App" borderRadius="lg" />
+              <Stack mt="6" spacing="3">
+                <Heading textAlign={"center"} size="md">
+                  Movie-Search-App
+                </Heading>
+                <Text textAlign={"center"}>
+                  It provides a platform for users to browse movie and their
+                  corresponded details of movies and series online conveniently.
+                </Text>
+
+                <Text textAlign={"center"}>
+                  Tech stack - HTML | CSS | JavaScript | Advance JS | Git
+                </Text>
+              </Stack>
+            </CardBody>
+
+            <CardFooter m={"auto"}>
+              <ButtonGroup spacing="2">
+                <Link
+                  href="https://movie-app-fetch-assignment.vercel.app/"
+                  isExternal
+                >
+                  <Button variant="solid" colorScheme="blue">
+                    Live Demo
+                  </Button>
+                </Link>
+
+                <Link
+                  href="https://github.com/iamnaveen8851/Movie-App-Fetch-Assignment-"
                   isExternal
                 >
                   <Button variant="solid" colorScheme="blue">
