@@ -78,7 +78,7 @@ const Projects = () => {
                   Asos-Clone
                 </Heading>
                 <Text textAlign={"center"}>
-                  Its a online ecommerce website for users to browse products
+                  Asos is a online ecommerce website for users to browse products
                   and buy conveniently.
                 </Text>
 
@@ -268,7 +268,7 @@ const Projects = () => {
                   Flipkart-Clone
                 </Heading>
                 <Text textAlign={"center"}>
-                  Created static clone of flipkart e-commerce website
+                  Your Flipkart website clone is a sleek, user-friendly platform built with React and styled with Chakra UI, offering a seamless shopping experience.
                 </Text>
 
                 <Text textAlign={"center"}>
