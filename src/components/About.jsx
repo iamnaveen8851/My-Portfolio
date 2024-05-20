@@ -30,19 +30,22 @@ const About = () => {
         </Heading>
         <br />
         <br />
-        <Text textAlign={"center"} fontSize={{
-          base: "24px",
-          sm : "25px",
-          md : "25px",
-          lg  :"40px",
-          xl : "40px",
-          "2xl" : "40px"
-        }}>
+        <Text
+          textAlign={"center"}
+          fontSize={{
+            base: "24px",
+            sm: "25px",
+            md: "25px",
+            lg: "40px",
+            xl: "40px",
+            "2xl": "40px",
+          }}
+        >
           I am{" "}
           <span style={{ color: "rgb(64, 112, 244)", fontWeight: "bold" }}>
             {/* Style will be inherited from the parent element */}
             <Typewriter
-              words={["Naveen Kumar",  "MERN Developer"]}
+              words={["Naveen Kumar", "MERN Developer"]}
               loop={true}
               cursor
               cursorStyle="|"
@@ -53,20 +56,23 @@ const About = () => {
           </span>
         </Text>
         <br />
-        <Center w={{
-          base:  "100%",
-          sm : "100%",
-          md : "80%",
-          lg : "60%",
-          xl : "60%",
-        }} m={"auto"}>
+        <Center
+          w={{
+            base: "100%",
+            sm: "100%",
+            md: "80%",
+            lg: "60%",
+            xl: "60%",
+          }}
+          m={"auto"}
+        >
           <Text textAlign={"center"}>
-            Energetic and dedicated front-end developer intern with a solid
-            foundation in HTML, CSS, and JavaScript. Proficient in React and
-            adept at leveraging Git for collaborative coding. Demonstrates
-            exceptional problem-solving abilities, coupled with a keen
-            enthusiasm for quick learning and implementing cutting-edge
-            technologies.
+            Proactive Full Stack Web Developer experienced in MERN stack
+            (MongoDB, Express.js, React.js, Node.js). Proficient in translating
+            project requirements into scalable web applications. Skilled in
+            frontend development using React.js and backend development using
+            Node.js and Express.js. Strong problem-solving abilities and
+            up-to-date with industry trends and best practices.
           </Text>
         </Center>
         <br />
