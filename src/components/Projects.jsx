@@ -407,7 +407,7 @@ const Projects = () => {
             _hover={{
               transform: "scale(1.1)",
               transition: "transform 0.3s ease",
-            }}
+            }}np
             w={{
               base: "90%",
               sm: "90%",

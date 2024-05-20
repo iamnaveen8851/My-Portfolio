@@ -16,9 +16,10 @@ const Github = () => {
       </Heading>
 
       <Box
+      
         h={"100vh"}
         w="90%"
-        //   border={"1px solid red"}
+          // border={"1px solid red"}
         display={"flex"}
         flexDirection={{
           base: "column",
@@ -46,7 +47,11 @@ const Github = () => {
             src="https://github-readme-stats.vercel.app/api?username=iamnaveen8851&show_icons=true&locale=en"
             alt="iamnaveen8851"
           /> */}
-          <img src="https://github-readme-stats.vercel.app/api?username=iamnaveen8851&theme=dark&hide_border=false&include_all_commits=false&count_private=false" width="400" height="200" />
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=iamnaveen8851&theme=dark&hide_border=false&include_all_commits=false&count_private=false"
+            width="400"
+            height="200"
+          />
         </Text>
 
         <Text
@@ -62,7 +67,11 @@ const Github = () => {
             src="https://github-readme-stats.vercel.app/api/top-langs?username=iamnaveen8851&show_icons=true&locale=en&layout=compact"
             alt="iamnaveen8851"
           /> */}
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamnaveen8851&theme=dark&hide_border=false" width="440" height="200" />
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=iamnaveen8851&theme=dark&hide_border=false"
+            width="440"
+            height="200"
+          />
         </Text>
 
         <Text
@@ -77,7 +86,11 @@ const Github = () => {
             src="https://github-readme-streak-stats.herokuapp.com/?user=iamnaveen8851&"
             alt="iamnaveen8851"
           /> */}
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamnaveen8851&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" width="370" height="200" />
+          <img
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamnaveen8851&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
+            width="370"
+            height="200"
+          />
         </Text>
       </Box>
     </>

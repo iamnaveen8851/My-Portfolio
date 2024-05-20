@@ -74,7 +74,7 @@ const Home = () => {
             fontSize={{
               base: "21.5px",
               sm: "30px",
-              md: "35px",
+              md: "22px",
               lg: "30px",
               xl: "30px",
               "2xl": "36px",
@@ -84,13 +84,7 @@ const Home = () => {
             <span style={{ color: "rgb(64, 112, 244)", fontWeight: "bold" }}>
               {/* Style will be inherited from the parent element */}
               <Typewriter
-                words={[
-                  "Full Stack-Developer",
-                  "Frontend-Developer.",
-                  "MERN Developer",
-                  "Problem Solver",
-                  "Creative Thinker",
-                ]}
+                words={["MERN Developer", "Problem Solver", "Creative Thinker"]}
                 loop={true}
                 cursor
                 cursorStyle="|"
@@ -109,8 +103,21 @@ const Home = () => {
             isExternal
           >
             <Button
-              w="27%"
-              h="10%"
+              w={{
+                base: "50%",
+                sm: "50%",
+                md: "40%",
+                lg: "30%",
+                xl: "30%",
+                "2xl": "30%",
+              }}
+              h={{
+                base: "50px",
+                sm: "50px",
+                md: "50px",
+                lg: "50px",
+                xl: "50px",
+              }}
               fontSize={"17px"}
               _hover={{
                 background: "green",

@@ -33,7 +33,7 @@ const About = () => {
         <Text textAlign={"center"} fontSize={{
           base: "24px",
           sm : "25px",
-          md : "28px",
+          md : "25px",
           lg  :"40px",
           xl : "40px",
           "2xl" : "40px"
@@ -42,7 +42,7 @@ const About = () => {
           <span style={{ color: "rgb(64, 112, 244)", fontWeight: "bold" }}>
             {/* Style will be inherited from the parent element */}
             <Typewriter
-              words={["Naveen Kumar", " a Frontend Developer"]}
+              words={["Naveen Kumar",  "MERN Developer"]}
               loop={true}
               cursor
               cursorStyle="|"
